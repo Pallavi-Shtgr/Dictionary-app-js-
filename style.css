@@ -10,6 +10,7 @@
 body{
     display: flex;
     align-items: center;
+
     justify-content: center;
     min-height: 100vh;
     background: #4d59fb;
@@ -35,5 +36,5 @@ body{
 
 .searcj input{
     height: 53px;
-    width:100%
+    width:100%;
 }
