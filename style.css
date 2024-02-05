@@ -34,7 +34,35 @@ body{
     margin: 35px 0 18px;
 }
 
-.searcj input{
+.search input{
     height: 53px;
     width:100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+
+.search :where(i, span){
+    position: absolute;
+    top:50%;
+    color: #999;
+    transform : translateY(-50%);
+
+}
+
+.search i{
+    left: 18px;
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.search input:focus ~i{
+    color: #4d59fb;
+}
+
+.search span{
+    right: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    display:none;
 }
